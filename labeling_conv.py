@@ -2,11 +2,11 @@ import json
 import os
 
 # Load the COCO JSON file
-with open('/home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/val/coco.json') as f:
+with open('/yolo_training_dataset/val/coco.json') as f:
     data = json.load(f)
 
-images_base_path = '/home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/val/images/'
-labels_base_path = '/home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/val/labels/'
+images_base_path = '/yolo_training_dataset/val/images/'
+labels_base_path = '/yolo_training_dataset/val/labels/'
 
 os.makedirs(labels_base_path, exist_ok=True)
 
