@@ -1,4 +1,4 @@
-Training Ultralytics YOLO v8.2.76 on the FLIR Dataset
+#Training Ultralytics YOLO v8.2.76 on the FLIR Dataset
 Welcome to this repository! In this video tutorial, you will learn how to train Ultralytics YOLO v8.2.76 on the FLIR dataset.
 
 Downloading the Dataset
