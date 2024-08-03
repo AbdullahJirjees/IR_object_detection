@@ -5,7 +5,7 @@ import pandas as pd
 import time
 
 # Load model and class names
-model = YOLO("/home/jirjeesa/Projects/RSIP-ION/runs/detect/train10_yolo8.2/weights/best.pt")
+model = YOLO("/Projects/runs/detect/train10_yolo8.2/weights/best.pt")
 classNames = ['person', 'bike', 'car', 'dog']
 
 # Define colors for each class
@@ -21,7 +21,7 @@ corner_length = 10  # Adjust this based on your needs
 corner_thickness = 3  # Adjust thickness
 
 # Open video source (adjust path or use webcam as needed)
-cap = cv2.VideoCapture("/home/jirjeesa/Projects/RSIP-ION/thurmal_camera_test01.mp4")
+cap = cv2.VideoCapture("/Projects/thurmal_camera_test01.mp4")
 
 # Create DataFrame for storing detections
 df = pd.DataFrame(columns=['Class', 'Confidence', 'X1', 'Y1', 'X2', 'Y2'])
