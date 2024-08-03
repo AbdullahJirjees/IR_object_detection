@@ -1,12 +1,12 @@
 # dataset.yaml
-train: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/train/images
-val: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/val/images
-test: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/test/images
+train: /yolo_training_dataset/train/images
+val: /yolo_training_dataset/val/images
+test: /yolo_training_dataset/test/images
 
 # COCO JSON annotations
-train_ann: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/train/coco.json
-val_ann: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/val/coco.json
-test_ann: /home/jirjeesa/Projects/RSIP-ION/FLIR_ADAS_v2/yolo_training_dataset/test/coco.json
+train_ann: /yolo_training_dataset/train/coco.json
+val_ann: /yolo_training_dataset/val/coco.json
+test_ann: /yolo_training_dataset/test/coco.json
 
 # number of classes
 nc: 15  
